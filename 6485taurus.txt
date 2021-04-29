@@ -1,0 +1,102 @@
+//taurus6485 API: hdeem_get_stats_total ARRAYsize : 100000000 100mill
+
+BLADE   The average power : 199.189 W  Max power    0.000  Min power    0.000
+CPU0   The average power:  62.992 W  Max power    0.000  Min power    0.000
+CPU1   The average power:  60.816 W  Max power    0.000  Min power    0.000
+DDR_AB   The average power:   2.039 W  Max power    0.000  Min power    0.000
+DDR_CD   The average power:   1.261 W  Max power    0.000  Min power    0.000
+DDR_EF   The average power:   1.692 W  Max power    0.000  Min power    0.000
+DDR_GH   The average power:   3.441 W  Max power    0.000  Min power    0.000
+
+real    0m2.519s
+user    0m1.176s
+sys     0m1.281s
+
+//taurus6485 API: get_stats ARRAYsize : 100000000 100mill
+
+BLADE   The average power : 110.727 W  Max power  117.875  Min power  108.125
+CPU0   The average power:  27.335 W  Max power   29.500  Min power   26.625
+CPU1   The average power:  23.261 W  Max power   23.625  Min power   22.375
+DDR_AB   The average power:   1.263 W  Max power    1.750  Min power    1.000
+DDR_CD   The average power:   0.508 W  Max power    1.000  Min power    0.000
+DDR_EF   The average power:   1.000 W  Max power    1.125  Min power    0.875
+DDR_GH   The average power:   2.614 W  Max power    3.000  Min power    2.250
+
+
+real    0m7.386s
+user    0m1.161s
+sys     0m1.280s
+
+//taurus6485 API: hdeem_get_stats_total ARRAYsize : 10000000 10mill
+
+BLADE   The average power : 199.188 W  Max power    0.000  Min power    0.000
+CPU0   The average power:  62.991 W  Max power    0.000  Min power    0.000
+CPU1   The average power:  60.815 W  Max power    0.000  Min power    0.000
+DDR_AB   The average power:   2.039 W  Max power    0.000  Min power    0.000
+DDR_CD   The average power:   1.261 W  Max power    0.000  Min power    0.000
+DDR_EF   The average power:   1.692 W  Max power    0.000  Min power    0.000
+DDR_GH   The average power:   3.441 W  Max power    0.000  Min power    0.000
+
+real    0m0.584s
+user    0m0.122s
+sys     0m0.133s
+
+//taurus6485 API: get_stats Array size : 10000000 10mill
+
+BLADE   The average power : 111.261 W  Max power  116.000  Min power  108.375
+CPU0   The average power:  27.364 W  Max power   28.250  Min power   26.750
+CPU1   The average power:  22.927 W  Max power   23.375  Min power   21.500
+DDR_AB   The average power:   1.273 W  Max power    1.750  Min power    1.000
+DDR_CD   The average power:   0.427 W  Max power    1.125  Min power    0.000
+DDR_EF   The average power:   0.982 W  Max power    1.125  Min power    0.750
+DDR_GH   The average power:   2.618 W  Max power    3.000  Min power    2.250
+
+real    0m0.596s
+user    0m0.117s
+sys     0m0.138s
+
+//taurus6485 idle checkHdeem
+
+==== Instantaneous values ====
+   BLADE 111.750
+    CPU0  27.375
+    CPU1  21.375
+  DDR_AB   1.000
+  DDR_CD   0.375
+  DDR_EF   0.375
+  DDR_GH   2.250
+
+==== HDEEM statistics ====
+Time of statistics for blade        : 2021-04-29 08:25:44.795
+Time of statistics for vr           : 2021-04-29 08:25:44.765
+Blade values for stats              : 1579
+VR    values for stats              : 158
+Duration     for stats          (s) : 1.578
+Real blade freq        (#Measure/s) : 1000.000764
+Real vr    freq        (#Measure/s) : 100.063408
+
+            Max (W)        Min (W)        Average (W)        Energy (J)
+   BLADE    117.875        108.125        110.727           174.838
+    CPU0     29.500         26.625         27.335            43.190
+    CPU1     23.625         22.375         23.261            36.753
+  DDR_AB      1.750          1.000          1.263             1.996
+  DDR_CD      1.000          0.000          0.508             0.802
+  DDR_EF      1.125          0.875          1.000             1.580
+  DDR_GH      3.000          2.250          2.614             4.130
+
+
+==== HDEEM statistics total from power awake ====
+Time of total stats for blade       : 2021-04-29 08:25:44.804
+Time of total stats for vr          : 2021-04-29 08:25:44.774
+Blade values total                  : 28409622775
+VR    values total                  : 2840957037
+
+            Average (W)        Energy (J)
+   BLADE        199.187      5658837675.498
+
+    CPU0         62.991      1789545175.905
+    CPU1         60.815      1727728586.968
+  DDR_AB          2.039      57913905.431
+  DDR_CD          1.261      35823504.497
+  DDR_EF          1.692      48065447.195
+  DDR_GH          3.441      97769756.440
