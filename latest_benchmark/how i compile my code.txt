@@ -1,0 +1,12 @@
+..$ srun --pty --mem=5GB --exclusive bash
+//for get_stats_total
+..$ gcc -I /usr/include -fopenmp -D_OPENMP -g -O3 -c add_total.c  -std=gnu99
+..$ export OMP_NUM_THREADS=10
+..$ gcc -lhdeem -lfreeipmi -fopenmp -D_OPENMP -g -O3 add_total.o -o add_total -std=gnu99
+..$ ./add_total
+
+//for Get_stats
+..$ gcc -I /usr/include -fopenmp -D_OPENMP -g -O3 -c add_stats.c  -std=gnu99
+..$ export OMP_NUM_THREADS=10
+..$ gcc -lhdeem -lfreeipmi -fopenmp -D_OPENMP -g -O3 add_stats.o -o add_stats -std=gnu99
+..$ ./add_stats
